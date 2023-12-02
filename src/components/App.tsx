@@ -1,8 +1,8 @@
 import React from "react";
-import Title from "./Title.tsx";
+import Header from "./Header.tsx";
 
 const App = () => {
-  return <Title />;
+  return <Header />;
 };
 
 export default App;
