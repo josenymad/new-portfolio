@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
-      <ul className="text-stone-200 font-jost text-2xl">
-        <li className="inline-block">
+      <ul className="text-stone-200 font-jost text-2xl flex justify-center">
+        <li>
           <Link to="/">About</Link>
         </li>
-        <li className="inline-block mx-4">⌯</li>
-        <li className="inline-block">
+        <li className="mx-4">⌯</li>
+        <li>
           <Link to="software-development">Software Development</Link>
         </li>
-        <li className="inline-block mx-4">⌯</li>
-        <li className="inline-block">
+        <li className="mx-4">⌯</li>
+        <li>
           <Link to="music-production">Music Production</Link>
         </li>
-        <li className="inline-block mx-4">⌯</li>
-        <li className="inline-block">
+        <li className="mx-4">⌯</li>
+        <li>
           <Link to="contact">Contact</Link>
         </li>
       </ul>
