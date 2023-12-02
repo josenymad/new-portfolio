@@ -8,7 +8,7 @@ import Contact from "./Contact.tsx";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <Routes>
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </main>
-    </div>
+    </>
   );
 };
 
