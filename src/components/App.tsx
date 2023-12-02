@@ -10,12 +10,17 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="software-development" element={<SoftwareDevelopment />} />
-        <Route path="music-production" element={<MusicProduction />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route
+            path="software-development"
+            element={<SoftwareDevelopment />}
+          />
+          <Route path="music-production" element={<MusicProduction />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </main>
     </div>
   );
 };
