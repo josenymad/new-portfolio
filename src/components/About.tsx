@@ -7,7 +7,7 @@ const About = () => {
       <img
         src={portrait}
         alt="Portfolio Portrait"
-        className="w-1/5 rounded-full shadow-2xl"
+        className="w-1/5 border-solid border-2 border-stone-200 rounded-full shadow-2xl"
       />
       <article>
         <p>
