@@ -3,11 +3,11 @@ import portrait from "../assets/Portfolio portrait-PhotoRoom.jpg";
 
 const About = () => {
   return (
-    <section className="flex justify-around">
+    <section className="flex justify-evenly">
       <img
         src={portrait}
         alt="Portfolio Portrait"
-        className="w-1/5 border-solid border-2 border-stone-200 rounded-full shadow-2xl"
+        className="w-1/6 border-solid border-2 border-stone-200 rounded-full shadow-2xl"
       />
       <article className="self-center text-xl">
         <p>
