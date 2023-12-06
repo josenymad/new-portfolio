@@ -9,14 +9,14 @@ const About = () => {
         alt="Portfolio Portrait"
         className="w-1/5 border-solid border-2 border-stone-200 rounded-full shadow-2xl"
       />
-      <article>
+      <article className="self-center text-xl">
         <p>
           Hi! Welcome to my portfolio, and thanks for taking the time to have a
-          around.
+          look around.
         </p>
         <p>
-          I write code and make music, driven by a passion for technology and
-          creativity combined.
+          Driven by a passion for both technology and creativity, I write code
+          and make music.
         </p>
       </article>
     </section>
