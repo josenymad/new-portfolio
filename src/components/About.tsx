@@ -16,7 +16,14 @@ const About = () => {
         </p>
         <p>
           Driven by a passion for both technology and creativity, I write code
-          and make music.
+          for a living and make music in my spare time.
+        </p>
+        <p>
+          I built this site to showcase my work, so feel free to browse through
+          my projects and listen to some tunes.
+        </p>
+        <p>
+          If you&apos;d like to get in touch, head over to the contact section.
         </p>
       </article>
     </section>
