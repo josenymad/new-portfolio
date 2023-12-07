@@ -5,6 +5,7 @@ import About from "./About.tsx";
 import SoftwareDevelopment from "./SoftwareDevelopment.tsx";
 import MusicProduction from "./MusicProduction.tsx";
 import Contact from "./Contact.tsx";
+import Footer from "./Footer.tsx";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 };
