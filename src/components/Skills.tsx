@@ -82,7 +82,7 @@ const Skills = () => {
               <img
                 src={skill.icon}
                 alt={`${skill.name} Icon`}
-                className="w-[7vw] bg-stone-200 p-4 rounded-2xl"
+                className="w-[7vw] shadow-2xl bg-stone-200 p-4 rounded-2xl"
               />
               <figcaption className="text-center">{skill.name}</figcaption>
             </figure>
