@@ -3,7 +3,7 @@ import Navbar from "./Navbar.tsx";
 
 const Header = () => {
   return (
-    <header className="text-center mb-4">
+    <header className="text-center mb-8">
       <h1 className="text-6xl mb-4">Jose Wills</h1>
       <Navbar />
     </header>
