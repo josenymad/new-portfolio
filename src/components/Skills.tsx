@@ -78,7 +78,7 @@ const Skills = () => {
       <div className="grid grid-cols-8 grid-rows-2 place-items-center gap-y-4">
         {skills.map((skill: SkillObject) => {
           return (
-            <figure>
+            <figure key={skill.name}>
               <img
                 src={skill.icon}
                 alt={`${skill.name} Icon`}
