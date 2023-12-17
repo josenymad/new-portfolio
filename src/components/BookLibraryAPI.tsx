@@ -5,7 +5,7 @@ import apiVideo from "../assets/API refactoring - edited sound.mp4";
 const BookLibraryAPI = () => {
   return (
     <figure>
-      <video src={apiVideo} muted controls />
+      <video src={apiVideo} muted controls className="rounded-lg" />
       <figcaption className="text-center text-xl mb-4">
         Book Library API
       </figcaption>

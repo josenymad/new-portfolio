@@ -5,7 +5,7 @@ import certagsVideo from "../assets/Certags artwork portal demo recording - comp
 const Certags = () => {
   return (
     <figure>
-      <video src={certagsVideo} muted controls />
+      <video src={certagsVideo} muted controls className="rounded-lg" />
       <figcaption className="text-center text-xl mb-4">
         Certags Artwork Portal
       </figcaption>
