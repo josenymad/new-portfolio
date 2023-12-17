@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import certagsVideo from "../assets/Certags artwork portal demo recording.mp4";
 
 const Certags = () => {
@@ -8,7 +9,7 @@ const Certags = () => {
       <figcaption className="text-center text-xl mb-4">
         Certags Artwork Portal
       </figcaption>
-      <ul className="list-disc list-inside">
+      <ul className="list-disc list-inside mb-4">
         <li>
           Full stack software application to store, view and manage
           industrial-grade tag and label designs from a centralised online
@@ -30,6 +31,13 @@ const Certags = () => {
           computers into a bespoke, accessible cloud based location.
         </li>
       </ul>
+      <Link
+        to="https://github.com/josenymad/artworks-front-end"
+        className="block text-center underline"
+        target="_blank"
+      >
+        Check it out on GitHub
+      </Link>
     </figure>
   );
 };

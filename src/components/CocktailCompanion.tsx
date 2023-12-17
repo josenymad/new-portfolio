@@ -14,15 +14,15 @@ const CocktailCompanion = () => {
       <figcaption className="text-center text-xl mb-4">
         Cocktail Companion
       </figcaption>
-      <ul className="list-disc list-inside">
+      <ul className="list-disc list-inside mb-4">
         <li>
-          Cocktail making guide built collaboratively using React, check it out{" "}
+          Cocktail making guide built collaboratively using React -{" "}
           <Link
             to="https://www.cocktailcompanion.bar/"
             target="_blank"
             className="underline"
           >
-            here!
+            take a look!
           </Link>
         </li>
         <li>
@@ -35,6 +35,13 @@ const CocktailCompanion = () => {
           the team towards meeting our deadlines and surpassing MVP targets.
         </li>
       </ul>
+      <Link
+        to="https://github.com/josenymad/cocktail-companion"
+        className="block text-center underline"
+        target="_blank"
+      >
+        Check it out on GitHub
+      </Link>
     </figure>
   );
 };
