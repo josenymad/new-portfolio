@@ -2,17 +2,17 @@ import React from "react";
 import Slider from "react-slick";
 import Certags from "./Certags.tsx";
 import CocktailCompanion from "./CocktailCompanion.tsx";
-import TranslateDesignToCode from "./TranslateDesignToCode.tsx";
+import Portfolio from "./Portfolio.tsx";
 import BookLibraryAPI from "./BookLibraryAPI.tsx";
 
 const SoftwareDevelopment = () => {
   return (
     <section className="mb-8">
-      <Slider className="w-4/6 mx-auto" adaptiveHeight>
+      <Slider className="w-4/6 mx-auto" adaptiveHeight dots>
         <Certags />
         <CocktailCompanion />
-        <TranslateDesignToCode />
         <BookLibraryAPI />
+        <Portfolio />
       </Slider>
     </section>
   );
