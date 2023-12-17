@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import certagsVideo from "../assets/Certags artwork portal demo recording.mp4";
+import certagsVideo from "../assets/Certags artwork portal demo recording - compressed.mp4";
 
 const Certags = () => {
   return (
