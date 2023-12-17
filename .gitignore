@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+./src/assets/Certags artwork portal demo recording.mp4
