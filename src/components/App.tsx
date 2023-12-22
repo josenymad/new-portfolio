@@ -9,9 +9,12 @@ import Footer from "./Footer.tsx";
 import Skills from "./Skills.tsx";
 
 const App = () => {
-  const [previousSlide, setPreviousSlide] = useState(0);
-  const [activeSlide, setActiveSlide] = useState(0);
-  const [nextActiveSlide, setNextActiveSlide] = useState(0);
+  const [slides, setSlides] = useState({
+    previousSlide: 0,
+    activeSlide: 0,
+    nextActiveSlide: 0,
+  });
+  const { activeSlide } = slides;
 
   return (
     <>
@@ -22,11 +25,7 @@ const App = () => {
           <Route
             path="software-development"
             element={
-              <SoftwareDevelopment
-                setPreviousSlide={setPreviousSlide}
-                setActiveSlide={setActiveSlide}
-                setNextActiveSlide={setNextActiveSlide}
-              />
+              <SoftwareDevelopment slides={slides} setSlides={setSlides} />
             }
           />
           <Route path="music-production" element={<MusicProduction />} />

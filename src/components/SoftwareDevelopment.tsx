@@ -6,15 +6,23 @@ import Portfolio from "./Portfolio.tsx";
 import BookLibraryAPI from "./BookLibraryAPI.tsx";
 
 interface SoftwareDevelopmentProps {
-  setPreviousSlide: React.Dispatch<React.SetStateAction<number>>;
-  setActiveSlide: React.Dispatch<React.SetStateAction<number>>;
-  setNextActiveSlide: React.Dispatch<React.SetStateAction<number>>;
+  slides: {
+    previousSlide: number;
+    activeSlide: number;
+    nextActiveSlide: number;
+  };
+  setSlides: React.Dispatch<
+    React.SetStateAction<{
+      previousSlide: number;
+      activeSlide: number;
+      nextActiveSlide: number;
+    }>
+  >;
 }
 
 const SoftwareDevelopment: React.FC<SoftwareDevelopmentProps> = ({
-  setPreviousSlide,
-  setActiveSlide,
-  setNextActiveSlide,
+  slides,
+  setSlides,
 }) => {
   return (
     <section className="mb-8">
@@ -22,11 +30,14 @@ const SoftwareDevelopment: React.FC<SoftwareDevelopmentProps> = ({
         className="w-4/6 mx-auto"
         dots
         afterChange={(current) => {
-          setActiveSlide(current);
+          setSlides({ ...slides, activeSlide: current });
         }}
         beforeChange={(current, next) => {
-          setPreviousSlide(current);
-          setNextActiveSlide(next);
+          setSlides({
+            ...slides,
+            previousSlide: current,
+            nextActiveSlide: next,
+          });
         }}
       >
         <Certags />

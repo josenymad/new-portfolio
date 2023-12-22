@@ -1,6 +1,10 @@
 import React from "react";
 
-const Skills = () => {
+interface SkillsProps {
+  activeSlide: number;
+}
+
+const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
   interface SkillObject {
     name: string;
     icon: string;
@@ -71,6 +75,8 @@ const Skills = () => {
       icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
     },
   ];
+
+  console.log(activeSlide);
 
   return (
     <section className="mb-8">
