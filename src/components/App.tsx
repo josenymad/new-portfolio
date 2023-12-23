@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Header from "./Header.tsx";
 import About from "./About.tsx";
 import SoftwareDevelopment from "./SoftwareDevelopment.tsx";
@@ -15,6 +15,7 @@ const App = () => {
     nextActiveSlide: 0,
   });
   const { activeSlide } = slides;
+  const { pathname } = useLocation();
 
   return (
     <>
@@ -31,7 +32,9 @@ const App = () => {
           <Route path="music-production" element={<MusicProduction />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
-        <Skills activeSlide={activeSlide} />
+        {pathname !== "/music-production" ? (
+          <Skills activeSlide={activeSlide} />
+        ) : null}
       </main>
       <Footer />
     </>
