@@ -111,7 +111,7 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
           }
 
           return (
-            <figure key={name} className={opacity}>
+            <figure key={name} className={`${opacity} duration-500`}>
               <img
                 src={icon}
                 alt={`${name} Icon`}
