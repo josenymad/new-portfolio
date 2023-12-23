@@ -83,14 +83,16 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
       <h2 className="text-3xl text-center mb-8">Skills</h2>
       <div className="grid grid-cols-8 grid-rows-2 place-items-center gap-y-4">
         {skills.map((skill: SkillObject) => {
+          const { name, icon } = skill;
+
           return (
-            <figure key={skill.name}>
+            <figure key={name}>
               <img
-                src={skill.icon}
-                alt={`${skill.name} Icon`}
-                className="w-[7vw] shadow-2xl bg-stone-200 p-4 rounded-2xl"
+                src={icon}
+                alt={`${name} Icon`}
+                className="w-24 shadow-2xl bg-stone-200 p-4 rounded-2xl"
               />
-              <figcaption className="text-center">{skill.name}</figcaption>
+              <figcaption className="text-center">{name}</figcaption>
             </figure>
           );
         })}
