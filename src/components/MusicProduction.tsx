@@ -1,10 +1,21 @@
 import React from "react";
+import Slider from "react-slick";
+import OriginalMusic from "./OriginalMusic.tsx";
+import Remixes from "./Remixes.tsx";
 
 const MusicProduction = () => {
   return (
-    <div>
-      <p>Music Production</p>
-    </div>
+    <Slider className="w-10/12 mx-auto" dots>
+      <OriginalMusic />
+      <Remixes />
+      <iframe
+        className="h-[500px]"
+        src="https://open.spotify.com/embed/playlist/2h0LeB1mRdF1WksWxYF1QP?utm_source=generator"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+        title="Spotify Music Player"
+      />
+    </Slider>
   );
 };
 
