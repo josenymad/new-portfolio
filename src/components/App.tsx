@@ -32,9 +32,9 @@ const App = () => {
           <Route path="music-production" element={<MusicProduction />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
-        {pathname !== "/music-production" ? (
+        {pathname === "/music-production" || pathname === "/contact" ? null : (
           <Skills activeSlide={activeSlide} />
-        ) : null}
+        )}
       </main>
       <Footer />
     </>
