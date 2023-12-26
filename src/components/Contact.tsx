@@ -11,7 +11,11 @@ const Contact = () => {
   const { register } = useForm<FormInputs>();
 
   return (
-    <form action="" className="flex flex-col w-1/4 mx-auto">
+    <form
+      action={import.meta.env.VITE_FORM_ENDPOINT}
+      className="flex flex-col w-1/4 mx-auto"
+      method="post"
+    >
       <label htmlFor="name">Name:{}</label>
       <input
         type="text"
@@ -22,11 +26,11 @@ const Contact = () => {
       />
       <label htmlFor="email">Email:{}</label>
       <input
-        type="text"
+        type="email"
         id="email"
         {...register("email")}
         className="mb-2 text-black p-1.5 rounded"
-        placeholder="Your email"
+        placeholder="youremail@here.com"
       />
       <label htmlFor="message">Message:{}</label>
       <textarea
