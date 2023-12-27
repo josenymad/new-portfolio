@@ -16,6 +16,7 @@ const App = () => {
   });
   const { activeSlide } = slides;
   const { pathname } = useLocation();
+  const [scrollY, setScrollY] = useState(0);
 
   return (
     <>
@@ -26,7 +27,12 @@ const App = () => {
           <Route
             path="software-development"
             element={
-              <SoftwareDevelopment slides={slides} setSlides={setSlides} />
+              <SoftwareDevelopment
+                slides={slides}
+                setSlides={setSlides}
+                scrollY={scrollY}
+                setScrollY={setScrollY}
+              />
             }
           />
           <Route path="music-production" element={<MusicProduction />} />

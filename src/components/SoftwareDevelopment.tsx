@@ -18,11 +18,15 @@ interface SoftwareDevelopmentProps {
       nextActiveSlide: number;
     }>
   >;
+  scrollY: number;
+  setScrollY: React.Dispatch<React.SetStateAction<number>>;
 }
 
 const SoftwareDevelopment: React.FC<SoftwareDevelopmentProps> = ({
   slides,
   setSlides,
+  scrollY,
+  setScrollY,
 }) => {
   return (
     <section className="mb-8">
@@ -43,7 +47,7 @@ const SoftwareDevelopment: React.FC<SoftwareDevelopmentProps> = ({
         <Certags />
         <CocktailCompanion />
         <BookLibraryAPI />
-        <Portfolio />
+        <Portfolio scrollY={scrollY} setScrollY={setScrollY} />
       </Slider>
     </section>
   );
