@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+// eslint-disable-next-line import/no-extraneous-dependencies
+import defaultTheme from "tailwindcss/defaultTheme";
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -6,6 +10,15 @@ export default {
       fontFamily: {
         jost: ["Jost", "sans-serif"],
       },
+      screens: {
+        sm: "600px",
+        md: "750px",
+        lg: "1000px",
+      },
+    },
+    screens: {
+      xs: "475px",
+      ...defaultTheme.screens,
     },
   },
   plugins: [],
