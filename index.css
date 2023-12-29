@@ -16,3 +16,22 @@
 .bm-burger-bars {
     background: #e7e5e4;
 }
+
+.bm-menu {
+    background: #9EB1BD; 
+    color: #181a1b;
+}
+
+.bm-menu-wrap {
+    width: 240px !important;
+}
+
+.bm-item-list {
+    padding-top: 0.5rem;
+}
+
+.bm-item {
+    margin: 0.5rem auto;
+    font-size: 1.25rem;
+    width: fit-content;
+}
