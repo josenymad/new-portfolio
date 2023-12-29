@@ -7,10 +7,10 @@
 
 .bm-burger-button {
     position: fixed;
-    width: 36px;
-    height: 30px;
-    left: 36px;
-    top: 36px;
+    width: 25px;
+    height: 25px;
+    left: 1rem;
+    top: 2rem;
 }
   
 .bm-burger-bars {
