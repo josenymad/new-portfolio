@@ -9,7 +9,7 @@
     position: fixed;
     width: 25px;
     height: 25px;
-    left: 1rem;
+    left: 0.25rem;
     top: 2rem;
 }
   
@@ -38,5 +38,5 @@
 }
 
 .bm-cross {
-    background: #181a1b;
+    color: #181a1b;
 }
