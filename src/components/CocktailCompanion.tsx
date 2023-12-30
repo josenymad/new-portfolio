@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const CocktailCompanion = () => {
   return (
@@ -17,13 +16,14 @@ const CocktailCompanion = () => {
       <ul className="list-disc list-inside mb-4">
         <li>
           Cocktail making guide built collaboratively using React -{" "}
-          <Link
-            to="https://www.cocktailcompanion.bar/"
+          <a
+            href="https://www.cocktailcompanion.bar/"
             target="_blank"
             className="underline"
+            rel="noopener noreferrer"
           >
             take a look!
-          </Link>
+          </a>
         </li>
         <li>
           Created using the full scope of the software development life cycle
@@ -35,13 +35,14 @@ const CocktailCompanion = () => {
           the team towards meeting our deadlines and surpassing MVP targets.
         </li>
       </ul>
-      <Link
-        to="https://github.com/josenymad/cocktail-companion"
+      <a
+        href="https://github.com/josenymad/cocktail-companion"
         className="block text-center underline"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Check it out on GitHub
-      </Link>
+      </a>
     </figure>
   );
 };

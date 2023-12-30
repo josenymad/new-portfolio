@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import apiVideo from "../assets/API refactoring - edited sound.mp4";
 
 const BookLibraryAPI = () => {
@@ -19,13 +18,14 @@ const BookLibraryAPI = () => {
           I used models with Sequelize as an Object Relational Mapper
         </li>
       </ul>
-      <Link
-        to="https://github.com/josenymad/book-library"
+      <a
+        href="https://github.com/josenymad/book-library"
         className="block text-center underline"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Check it out on GitHub
-      </Link>
+      </a>
     </figure>
   );
 };

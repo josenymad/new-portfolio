@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { motion, useAnimation, useScroll } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
@@ -50,13 +49,14 @@ const Portfolio: React.FC<PortfolioProps> = ({ scrollY, setScrollY }) => {
         />
       </motion.p>
       <div className="absolute bottom-0 w-full">
-        <Link
-          to="https://github.com/josenymad/new-portfolio"
+        <a
+          href="https://github.com/josenymad/new-portfolio"
           className="block text-center underline"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Check it out on GitHub
-        </Link>
+        </a>
       </div>
     </article>
   );

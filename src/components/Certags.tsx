@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import certagsVideo from "../assets/Certags artwork portal demo recording - compressed.mp4";
 
 const Certags = () => {
@@ -31,13 +30,14 @@ const Certags = () => {
           computers into a bespoke, accessible cloud based location.
         </li>
       </ul>
-      <Link
-        to="https://github.com/josenymad/artworks-front-end"
+      <a
+        href="https://github.com/josenymad/artworks-front-end"
         className="block text-center underline"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Check it out on GitHub
-      </Link>
+      </a>
     </figure>
   );
 };
