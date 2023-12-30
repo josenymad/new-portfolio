@@ -17,10 +17,11 @@ const App = () => {
   const { activeSlide } = slides;
   const { pathname } = useLocation();
   const [scrollY, setScrollY] = useState(0);
+  const [sideBarOpen, setSideBarOpen] = useState(false);
 
   return (
     <>
-      <Header />
+      <Header sideBarOpen={sideBarOpen} setSideBarOpen={setSideBarOpen} />
       <main id="page-wrap">
         <Routes>
           <Route path="/" element={<About />} />

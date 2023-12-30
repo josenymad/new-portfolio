@@ -4,7 +4,22 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-const BurgerMenuNavbar = () => {
+interface BurgerMenuNavbarProps {
+  sideBarOpen: boolean;
+  setSideBarOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const BurgerMenuNavbar: React.FC<BurgerMenuNavbarProps> = ({
+  sideBarOpen,
+  setSideBarOpen,
+}) => {
+  const handleSideBar = () => {
+    setSideBarOpen(!sideBarOpen);
+  };
+  const closeSideBar = () => {
+    setSideBarOpen(false);
+  };
+
   return (
     <Menu
       className="fixed left-0 top-20"
@@ -13,14 +28,25 @@ const BurgerMenuNavbar = () => {
       outerContainerId="root"
       customBurgerIcon={<FontAwesomeIcon icon={faBars} />}
       customCrossIcon={<FontAwesomeIcon icon={faXmark} />}
+      isOpen={sideBarOpen}
+      onOpen={handleSideBar}
+      onClose={handleSideBar}
     >
-      <Link to="/">About</Link>
+      <Link to="/" onClick={closeSideBar}>
+        About
+      </Link>
       <span>⌯</span>
-      <Link to="software-development">Software Development</Link>
+      <Link to="software-development" onClick={closeSideBar}>
+        Software Development
+      </Link>
       <span>⌯</span>
-      <Link to="music-production">Music Production</Link>
+      <Link to="music-production" onClick={closeSideBar}>
+        Music Production
+      </Link>
       <span>⌯</span>
-      <Link to="contact">Contact</Link>
+      <Link to="contact" onClick={closeSideBar}>
+        Contact
+      </Link>
     </Menu>
   );
 };
