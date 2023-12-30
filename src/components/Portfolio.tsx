@@ -22,7 +22,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ scrollY, setScrollY }) => {
   }
 
   if (innerHeight < 700) {
-    pagePortion = 0.35;
+    pagePortion = 0.4;
     scrollSpeed = 0.775;
   }
 
