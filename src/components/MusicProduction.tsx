@@ -5,7 +5,7 @@ import Remixes from "./Remixes.tsx";
 
 const MusicProduction = () => {
   return (
-    <Slider className="w-10/12 mx-auto" dots>
+    <Slider className="w-11/12 mx-auto mb-8" dots>
       <OriginalMusic />
       <Remixes />
       <iframe
