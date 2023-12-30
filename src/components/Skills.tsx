@@ -97,8 +97,10 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
 
   return (
     <section className="mb-8">
-      <h2 className="text-3xl text-center mb-8">Skills</h2>
-      <div className="grid grid-cols-8 grid-rows-2 place-items-center gap-y-4">
+      <h2 className="text-3xl 2xl:text-4xl 3xl:text-5xl text-center mb-8">
+        Skills
+      </h2>
+      <div className="grid grid-cols-2 grid-rows-8 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 place-items-center gap-y-4">
         {skills.map((skill: SkillObject) => {
           const { name, icon, project } = skill;
           let opacity: string = "opacity-100";

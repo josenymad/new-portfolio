@@ -9,7 +9,7 @@ const About = () => {
         alt="Portfolio Portrait"
         className="w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 border-solid border-2 border-stone-200 rounded-full shadow-2xl mx-auto self-center"
       />
-      <article className="self-center text-xl m-4">
+      <article className="self-center text-xl 2xl:text-2xl 3xl:text-3xl m-4">
         <p>
           Hi! Welcome to my portfolio, and thanks for taking the time to have a
           look around.

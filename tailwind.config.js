@@ -14,6 +14,9 @@ export default {
         sm: "600px",
         md: "750px",
         lg: "1000px",
+        xl: "1200px",
+        "2xl": "1500px",
+        "3xl": "1750px",
       },
     },
     screens: {
