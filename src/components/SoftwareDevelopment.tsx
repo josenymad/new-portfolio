@@ -31,7 +31,7 @@ const SoftwareDevelopment: React.FC<SoftwareDevelopmentProps> = ({
   return (
     <section className="mb-8">
       <Slider
-        className="w-4/6 mx-auto"
+        className="w-3/4 mx-auto"
         dots
         afterChange={(current) => {
           setSlides({ ...slides, activeSlide: current });

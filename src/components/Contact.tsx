@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <form
       action={import.meta.env.VITE_FORM_ENDPOINT}
-      className="flex flex-col w-1/4 mx-auto"
+      className="flex flex-col w-3/4 mx-auto"
       method="post"
     >
       <label htmlFor="name">Name:{}</label>
