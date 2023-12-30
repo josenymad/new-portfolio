@@ -34,7 +34,7 @@ const OriginalMusic = () => {
         </a>
       </iframe>
       <iframe
-        className="h-[515px] mx-auto"
+        className="h-[515px] mx-auto lg:max-2xl:col-span-3"
         src="https://bandcamp.com/EmbeddedPlayer/album=2600371896/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/transparent=true/"
         seamless
         title="Bandcamp Music Player"
