@@ -32,7 +32,7 @@ const Certags = () => {
       </ul>
       <a
         href="https://github.com/josenymad/artworks-front-end"
-        className="block text-center underline"
+        className="w-fit underline block mx-auto"
         target="_blank"
         rel="noopener noreferrer"
       >

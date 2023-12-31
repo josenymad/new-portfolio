@@ -48,16 +48,14 @@ const Portfolio: React.FC<PortfolioProps> = ({ scrollY, setScrollY }) => {
           icon={scrollYProgress.get() >= pagePortion ? faArrowUp : faArrowDown}
         />
       </motion.p>
-      <div className="absolute bottom-0 w-full">
-        <a
-          href="https://github.com/josenymad/new-portfolio"
-          className="block text-center underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check it out on GitHub
-        </a>
-      </div>
+      <a
+        href="https://github.com/josenymad/new-portfolio"
+        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Check it out on GitHub
+      </a>
     </article>
   );
 };

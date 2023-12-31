@@ -37,7 +37,7 @@ const CocktailCompanion = () => {
       </ul>
       <a
         href="https://github.com/josenymad/cocktail-companion"
-        className="block text-center underline"
+        className="w-fit underline block mx-auto"
         target="_blank"
         rel="noopener noreferrer"
       >
