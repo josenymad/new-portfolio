@@ -60,7 +60,7 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
     {
       name: "Express",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-      project: [2],
+      project: [0, 2],
     },
     {
       name: "PostgreSQL",
