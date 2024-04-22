@@ -39,7 +39,7 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
     },
     {
       name: "Tailwind",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       project: [3],
     },
     {
@@ -79,7 +79,7 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
     },
     {
       name: "AWS",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
       project: [0],
     },
     {
