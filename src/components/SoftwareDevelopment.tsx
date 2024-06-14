@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import Certags from "./Certags.tsx";
-import CocktailCompanion from "./CocktailCompanion.tsx";
-import Portfolio from "./Portfolio.tsx";
-import BookLibraryAPI from "./BookLibraryAPI.tsx";
+import Certags from "./Projects/Certags.tsx";
+import CocktailCompanion from "./Projects/CocktailCompanion.tsx";
+import Portfolio from "./Projects/Portfolio.tsx";
+import BookLibraryAPI from "./Projects/BookLibraryAPI.tsx";
 
 interface SoftwareDevelopmentProps {
   slides: {

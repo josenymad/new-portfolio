@@ -1,10 +1,15 @@
 import React from "react";
-import certagsVideo from "../assets/Certags artwork portal demo recording - compressed.mp4";
+import certagsVideo from "../../assets/Certags artwork portal demo recording - compressed.mp4";
 
 const Certags = () => {
   return (
     <figure>
-      <video src={certagsVideo} muted controls className="rounded-lg" />
+      <video
+        src={certagsVideo}
+        muted
+        controls
+        className="rounded-lg shadow-lg"
+      />
       <figcaption className="text-center text-xl mb-4">
         Certags Artwork Portal
       </figcaption>

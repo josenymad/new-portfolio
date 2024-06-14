@@ -4,7 +4,7 @@ const CocktailCompanion = () => {
   return (
     <figure>
       <iframe
-        className="w-full h-[35vw] rounded-lg"
+        className="w-full h-[35vw] rounded-lg shadow-lg"
         src="https://www.youtube.com/embed/9MXMxw37I-k?si=3Sg_0gfo6TQ6mAiH"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

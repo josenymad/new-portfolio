@@ -1,5 +1,5 @@
 import React from "react";
-import apiVideo from "../assets/API refactoring - edited sound.mp4";
+import apiVideo from "../../assets/API refactoring - edited sound.mp4";
 
 const BookLibraryAPI = () => {
   return (

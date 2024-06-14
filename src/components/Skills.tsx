@@ -88,9 +88,9 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
       project: [0, 1, 2, 3],
     },
     {
-      name: "Postman",
-      icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-      project: [0, 1, 2],
+      name: "Golang",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg",
+      project: [],
     },
   ];
   const { pathname } = useLocation();
