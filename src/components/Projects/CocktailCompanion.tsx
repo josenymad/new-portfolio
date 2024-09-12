@@ -17,7 +17,7 @@ const CocktailCompanion = () => {
         <li>
           Cocktail making guide built collaboratively using React -{" "}
           <a
-            href="https://www.cocktailcompanion.bar/"
+            href="https://cocktail-companion.onrender.com/"
             target="_blank"
             className="underline"
             rel="noopener noreferrer"
