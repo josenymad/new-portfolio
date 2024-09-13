@@ -15,15 +15,25 @@ const About = () => {
           look around.
         </p>
         <p>
-          Driven by a passion for both technology and creativity, I write code
-          for a living and make music in my spare time.
+          I&apos;m driven by a passion for technology and creativity, as well as
+          physical and mental health.
         </p>
         <p>
-          I built this site to showcase my work, so feel free to browse through
-          my projects and listen to some tunes.
+          For the last 10 or so years, I dedicated most of my spare time to
+          making music, whilst working in sales.
         </p>
         <p>
-          If you&apos;d like to get in touch, head over to the contact section.
+          I then started a career in software development, whilst becoming
+          completely obsessed with climbing, particularly bouldering indoors and
+          outdoors.
+        </p>
+        <p>
+          I built this site to upskill and showcase my work, so feel free to
+          browse through my projects and listen to some tunes.
+        </p>
+        <p>
+          If you&apos;d like to get in touch, you can head over to the contact
+          section.
         </p>
       </article>
     </section>
