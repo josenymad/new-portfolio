@@ -4,6 +4,7 @@ import Certags from "./Projects/Certags.tsx";
 import CocktailCompanion from "./Projects/CocktailCompanion.tsx";
 import Portfolio from "./Projects/Portfolio.tsx";
 import BookLibraryAPI from "./Projects/BookLibraryAPI.tsx";
+import Wedding from "./Projects/Wedding.tsx";
 
 interface SoftwareDevelopmentProps {
   slides: {
@@ -46,6 +47,7 @@ const SoftwareDevelopment: React.FC<SoftwareDevelopmentProps> = ({
       >
         <Certags />
         <CocktailCompanion />
+        <Wedding />
         <BookLibraryAPI />
         <Portfolio scrollY={scrollY} setScrollY={setScrollY} />
       </Slider>
