@@ -15,24 +15,28 @@ const Certags = () => {
       </figcaption>
       <ul className="list-disc list-inside mb-4">
         <li>
-          Full stack software application to store, view and manage
+          Deployed a full stack software application to store, view and manage
           industrial-grade tag and label designs from a centralised online
           portal.
         </li>
         <li>
-          The front-end has been designed with Figma and created using React,
-          the API was then integrated using Axios. I also configured an AWS
-          Cognito user pool app client for authentication.
+          Designed the front-end with Figma, then translated that into a
+          responsive app using React.
         </li>
         <li>
-          I used Express as a JavaScript framework to write the API, an AWS S3
-          bucket to store images, and a MongoDB database to store the image URIs
-          alongside corresponding data.
+          Configured an AWS Cognito user pool app client for security and
+          authentication.
         </li>
         <li>
-          This project aims to improve efficiency and reliability across the
-          business by organising information previously spread across different
-          computers into a bespoke, accessible cloud based location.
+          Used Express to write the API, connected that to an AWS S3 bucket to
+          store the images, and finally deployed a MongoDB database to store the
+          image URIs alongside any corresponding data.
+        </li>
+        <li>Integrated the API with the front-end using Axios.</li>
+        <li>
+          Improved efficiency and reliability across the business by organising
+          information previously spread across different computers into a
+          bespoke, accessible cloud based location.
         </li>
       </ul>
       <a

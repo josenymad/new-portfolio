@@ -27,8 +27,8 @@ const CocktailCompanion = () => {
         </li>
         <li>
           Created using the full scope of the software development life cycle
-          through agile methodologies, such as sprints and MoSCoW prioritisation
-          technique.
+          through agile methodologies, such as sprints and prioritisation
+          techniques.
         </li>
         <li>
           Applied leadership skills to promote fluid collaboration, motivating
