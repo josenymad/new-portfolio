@@ -15,32 +15,32 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
     {
       name: "JavaScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-      project: [0, 1, 3],
+      project: [0, 1, 4],
     },
     {
       name: "TypeScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-      project: [2, 4],
+      project: [2, 5],
     },
     {
       name: "React",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-      project: [0, 1, 2, 4],
+      project: [0, 1, 2, 5],
     },
     {
       name: "HTML",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-      project: [0, 1, 2, 4],
+      project: [0, 1, 2, 5],
     },
     {
       name: "CSS",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-      project: [0, 1, 2, 4],
+      project: [0, 1, 2, 5],
     },
     {
       name: "Tailwind",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-      project: [2, 4],
+      project: [2, 5],
     },
     {
       name: "Figma",
@@ -50,22 +50,22 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
     {
       name: "Git",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
-      project: [0, 1, 2, 3, 4],
+      project: [0, 1, 2, 3, 4, 5],
     },
     {
       name: "Node",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-      project: [0, 1, 2, 3, 4],
+      project: [0, 1, 2, 4, 5],
     },
     {
       name: "Express",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
-      project: [0, 3],
+      project: [0, 4],
     },
     {
       name: "PostgreSQL",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
-      project: [3],
+      project: [3, 4],
     },
     {
       name: "MongoDB",
@@ -75,7 +75,7 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
     {
       name: "Docker",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
-      project: [3],
+      project: [4],
     },
     {
       name: "AWS",
@@ -85,12 +85,12 @@ const Skills: React.FC<SkillsProps> = ({ activeSlide }) => {
     {
       name: "Jest",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg",
-      project: [0, 1, 3],
+      project: [0, 1, 4],
     },
     {
       name: "Golang",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg",
-      project: [],
+      project: [3],
     },
   ];
   const { pathname } = useLocation();

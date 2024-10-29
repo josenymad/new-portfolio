@@ -5,6 +5,7 @@ import CocktailCompanion from "./Projects/CocktailCompanion.tsx";
 import Portfolio from "./Projects/Portfolio.tsx";
 import BookLibraryAPI from "./Projects/BookLibraryAPI.tsx";
 import Wedding from "./Projects/Wedding.tsx";
+import GoAPI from "./Projects/GoAPI.tsx";
 
 interface SoftwareDevelopmentProps {
   slides: {
@@ -48,6 +49,7 @@ const SoftwareDevelopment: React.FC<SoftwareDevelopmentProps> = ({
         <Certags />
         <CocktailCompanion />
         <Wedding />
+        <GoAPI />
         <BookLibraryAPI />
         <Portfolio scrollY={scrollY} setScrollY={setScrollY} />
       </Slider>
