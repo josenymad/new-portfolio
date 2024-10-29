@@ -7,7 +7,7 @@ const GoAPI = () => {
       <img
         src={boulderDb}
         alt="Boulder DB"
-        className="rounded-lg w-5/6 m-auto"
+        className="rounded-lg sm:w-5/6 m-auto"
       />
       <figcaption className="text-center text-xl mb-4">
         Go RESTful CRUD API

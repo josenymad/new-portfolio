@@ -24,5 +24,25 @@ export default {
       ...defaultTheme.screens,
     },
   },
-  plugins: [],
+  plugins: [
+    function addHoverUnderline({ addUtilities }) {
+      addUtilities({
+        ".hover-underline": {
+          position: "relative",
+          borderBottomWidth: "2px",
+          borderColor: "transparent",
+          transitionProperty: "all",
+          transitionDuration: "300ms",
+          "&:hover": {
+            borderColor: "white",
+          },
+        },
+        ".custom-underline": {
+          position: "relative",
+          borderBottomWidth: "2px",
+          borderColor: "white",
+        },
+      });
+    },
+  ],
 };
