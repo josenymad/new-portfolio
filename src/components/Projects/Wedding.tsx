@@ -4,13 +4,13 @@ const Wedding = () => {
   return (
     <figure>
       <iframe
-        src="https://www.benandneva.life/"
+        src="https://wedding-jk1i.onrender.com/"
         title="wedding"
         className="m-auto w-[65vw] h-[90vh] rounded-lg shadow-lg hidden sm:block"
       />
       <div className="mt-[50vh] sm:mt-0">
         <a
-          href="https://www.benandneva.life/"
+          href="https://wedding-jk1i.onrender.com/"
           className="w-fit underline block text-xl mx-auto mb-4 text-center"
           target="_blank"
           rel="noopener noreferrer"
